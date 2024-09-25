@@ -1,0 +1,18 @@
+<h2>Editar Cliente</h2>
+<form class="row g-3" *ngIf="cliente">
+    <div class="">
+        <label for="id">Id</label>
+        <input type="text" class="form-control" id="id" name="id" readonly>
+    </div>
+    <div class="">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" name="nome">
+    </div>
+    <div class="">
+        <label for="endereco">Endereço</label>
+        <input type="text" class="form-control" name="endereco">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Atualizar</button>
+    </div>
+</form>
